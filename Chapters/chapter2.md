@@ -1,6 +1,6 @@
 # Chapter 2: Python Debugger (pdb)
 
-本章来介绍Python debugger: pdb
+本章来介绍 Python debugger: pdb
 
 ## 基本用法
 

@@ -43,7 +43,6 @@ name = yasoob
 ## 调用function时使用 `*args` 和 `**kwargs` 来作为参数
 
 ```python
-
 def test_args_kwargs(arg1, arg2, arg3):
     print("arg1:", arg1)
     print("arg2:", arg2)
@@ -62,7 +61,6 @@ arg3: 5
 arg1: 5
 arg2: two
 arg3: 3
-
 ```
 
 如果想要同时使用 `*args`, `**kwargs` 以及普通的 args, 则 function 定义时参数的顺序为：
@@ -73,7 +71,7 @@ arg3: 3
 常用于 decorator,我会在之后的章节会提到。另一个使用场景就是 Monkey patch, 也就是在 runtime 的时候改变一些代码。比如说，
 假设你有一个 class，其中有一个 get_info function. 这个 funciton 会调用一个 API function, 然后返回此API的数据。但在测试的时候，你希望返回一些测试数据，而不是用这个真正的 get_info() 的数据，你就可以定义另一个 get_info() 的 function, 将它赋给这个 class.
 
-```
+```python
 import someclass
 
 def get_info(self, *args):
