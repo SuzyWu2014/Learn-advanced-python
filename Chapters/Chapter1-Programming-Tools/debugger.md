@@ -1,4 +1,4 @@
-# Chapter 2: Python Debugger (pdb)
+# Python Debugger (pdb)
 
 本章来介绍 Python debugger: pdb
 

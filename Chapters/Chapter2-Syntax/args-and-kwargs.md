@@ -1,4 +1,4 @@
-# Chapter 1: `*args` and `**kwargs`
+# `*args` and `**kwargs`
 
 在定义一个 function 的时候，当我们需要传入的参数个数是不确定的情况下，`*args` 和 `**kwargs`就会派上用场。需要注意的是，args 和 kwargs 只是变量名，如果你愿意的话，你可以用任何你喜欢的 variable name 替换它们, 例如，var 和 vars。这里的区别只是 `*` 的个数。
 
