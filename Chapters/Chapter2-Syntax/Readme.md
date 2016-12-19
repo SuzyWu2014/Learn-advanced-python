@@ -1,1 +1,1 @@
-# Chapter2 Syntax
+# Chapter2: Syntax
