@@ -4,5 +4,6 @@
 
 以下为所有用到的原文链接：
 
-[1. Intermediate Python](http://book.pythontips.com/en/latest/index.html)
-[2. Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/)
++ [1. Intermediate Python](http://book.pythontips.com/en/latest/index.html)
++ [2. Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/)
++ [3. Argument Unpacking: *expression and **expression inside function calls](http://yyao.info/python/2016/09/25/python-starred-expression)
