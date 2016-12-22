@@ -4,6 +4,7 @@
     * [1.1 Python Debugger - pdb](Chapters/Chapter1-Programming-Tools/debugger.md)
 * [2. Syntax](Chapters/Chapter2-Syntax/Readme.md)
     * [2.1 `*args` and `**kwargs`](Chapters/Chapter2-Syntax/args-and-kwargs.md)
+    * [2.2 Ternary Operators](Chapters/Chapter2-Syntax/TernaryOperators.md)
 * [3. Generators](Chapters/Chapter3-Generators/Readme.md)
     * [3.1 Containers](Chapters/Chapter3-Generators/Containers.md)
     * [3.2 Iterables](Chapters/Chapter3-Generators/Iterables.md)
