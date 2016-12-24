@@ -13,5 +13,5 @@
     * [3.5 Generators](Chapters/Chapter3-Generators/Generators.md)
 * [4. Django](Chapters/Chapter4-Django/Readme.md)
     * [4.1 Environment Set Up](Chapters/Chapter4-Django/setup.md)
-    * [4.2 Create First App](Chapters/Chapter4-Django/CreateApp.md)
+    * [4.2 Create the First App](Chapters/Chapter4-Django/CreateApp.md)
     * [4.3 Create Models](Chapters/Chapter4-Django/Models.md)
