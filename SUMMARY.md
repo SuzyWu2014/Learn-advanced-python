@@ -2,6 +2,7 @@
 
 * [1. Programming Tools](Chapters/Chapter1-Programming-Tools/Readme.md)
     * [1.1 Python Debugger - pdb](Chapters/Chapter1-Programming-Tools/debugger.md)
+    * [1.2 Object Introspection](Chapters/Chapter1-Programming-Tools/object-introspection.md)
 * [2. Syntax](Chapters/Chapter2-Syntax/Readme.md)
     * [2.1 `*args` and `**kwargs`](Chapters/Chapter2-Syntax/args-and-kwargs.md)
     * [2.2 Ternary Operators](Chapters/Chapter2-Syntax/TernaryOperators.md)
