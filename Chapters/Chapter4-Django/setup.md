@@ -86,6 +86,63 @@ DATABASES = {
 python manage.py migrate
 ```
 
+#### 设置 Mysql 数据库
+
+##### 安装 modules
+
++ 安装 mysql
+
+```bash
+# MacOS
+brew mysql
+
+alias mysql=/usr/local/mysql/bin/mysql
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+```
+
++ 安装 python module
+
+```bash
+# 仅支持 python2
+pip install MySQLdb
+
+# Python 3.3 以上版本
+pip3 install mysqlclient
+
+# 假如以上都无法成功安装
+pip3 install PYMySQL
+
+# 并在 setting.py 上加入一下代码
+try:
+    import pymysql
+    pymysql.install_as_MySQLdb()
+except ImportError:
+    pass
+```
+
+
+```python
+# in setting.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+            'read_default_file': '/path/to/mysql.cnf', # 绝对路径
+        },
+    }
+}
+
+#mysql.cnf
+[client]
+database = NAME
+host = HOST NAME or IP
+user = USER
+password = PASSWORD
+default-character-set = utf8
+```
+
+
+
 ## 启动服务器
 
 ```
@@ -99,4 +156,12 @@ System check identified no issues (0 silenced).
 December 20, 2016 - 17:55:11
 Django version 1.10.4, using settings 'qualitative_coding.settings'
 Starting development server at http://127.0.0.1:8000/
+```
+
+## Note
+
+如果使用 mysql, 要先在数据库了创建数据库：
+
+```sql
+CREATE DATABASE DB_NAME;
 ```

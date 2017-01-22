@@ -51,3 +51,5 @@ class Membership(models.Model):
 python manage.py makemigrations codingtool
 python manage.py migrate codingtool
 ```
+
+
