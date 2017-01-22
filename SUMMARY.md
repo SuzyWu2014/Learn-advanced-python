@@ -19,3 +19,4 @@
     * [4.4 Admin Backend](Chapters/Chapter4-Django/admin.md)
     * [4.5 Configure Urls](Chapters/Chapter4-Django/urls.md)
     * [4.6 Create the First View](Chapters/Chapter4-Django/views.md)
+    * [4.7 djangoadmin and manage.py](Chapters/Chapter4-Django/manage_py.md)
