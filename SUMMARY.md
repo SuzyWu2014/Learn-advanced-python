@@ -15,4 +15,7 @@
 * [4. Django](Chapters/Chapter4-Django/Readme.md)
     * [4.1 Environment Set Up](Chapters/Chapter4-Django/setup.md)
     * [4.2 Create the First App](Chapters/Chapter4-Django/CreateApp.md)
-    * [4.3 Create Models](Chapters/Chapter4-Django/Models.md)
+    * [4.3 Create Models and Database](Chapters/Chapter4-Django/Models_and_db.md)
+    * [4.4 Admin Backend](Chapters/Chapter4-Django/admin.md)
+    * [4.5 Configure Urls](Chapters/Chapter4-Django/urls.md)
+    * [4.6 Create the First View](Chapters/Chapter4-Django/views.md)
