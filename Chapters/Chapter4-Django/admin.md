@@ -29,20 +29,49 @@ admin.site.register(Membership)
 
 ## 自定义后台管理界面
 
+官方文档请戳 `==>` [The Django admin site](https://docs.djangoproject.com/en/1.10/ref/contrib/admin/#django.contrib.admin.ModelAdmin.filter_vertical)
+
+简单来说主要可配置以下内容：
+
++ `ModelAdmin`: 配置针对 Registered Models 的增删改界面的功能
+
 ```python
 # in admin.py
 @admin.register(Code)
 class CodeAdmin(admin.ModelAdmin):
+    # Model list 页面
     empty_value_display = '-- empty --'
     list_display = ('explanation',
                     'position',
                     'goal',
+                    'role',
                     'is_partial',
                     'is_emphasized',
                     'has_many'
                     )
-    list_filter = ('roles', 'notations')
-    filter_horizontal = ('roles', 'notations') # 为括号中的 fields 添加复选效果
+    list_filter = ['notations', 'explanation', 'role', 'goal']
+    show_full_result_count = True
+    ordering = ['explanation', 'position']
+    list_per_page = 50
+    filter_horizontal = ['notations']
+
+    # 添加修改 Model 页面
+    radio_fields = {"goal": admin.HORIZONTAL}
+    save_on_top = True
 ```
 
-为需要自定义功能的 Model 添加 ModelAdmin 类，具体参数可参照 [The Django admin site](https://docs.djangoproject.com/en/1.10/ref/contrib/admin/#django.contrib.admin.ModelAdmin.filter_vertical)
++ `InlineModelAdmin`: 配置在 List 页面添加 `add model` 功能，但是不针对当前 model
+
+```python
+# in admin.py
+
+class CodeInline(admin.TabularInline):
+    model = Code
+
+
+@admin.register(Goal)
+class GoalAdmin(admin.ModelAdmin):
+    empty_value_display = '-- empty --'
+    list_display = ('goal', 'description')
+    inlines = [CodeInline, ]
+```
