@@ -23,4 +23,5 @@
 * [5. Decorators](Chapters/Chapter5-Decorators/readme.md)
 * [6. Object-Oriented Idioms](Chapters/Chapter6-Object-Oriented-Idioms/Readme.md)
     * [6.1 Object references, Mutability, and Recycling](/Chapters/Chapter6-Object-Oriented-Idioms/object-references-and-mutability-and-recycling.md)
-    * 
+* [7. Control Flow](Chapters/Chapter7-Control-Flow/Readme.md)
+    * [7.1 Context manager and else block](/Chapters/Chapter7-Control-Flow/Context-manager-and-else-block.md)
