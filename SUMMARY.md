@@ -21,4 +21,6 @@
     * [4.6 Create the First View](Chapters/Chapter4-Django/views.md)
     * [4.7 djangoadmin and manage.py](Chapters/Chapter4-Django/manage_py.md)
 * [5. Decorators](Chapters/Chapter5-Decorators/readme.md)
-*
+* [6. Object-Oriented Idioms](Chapters/Chapter6-Object-Oriented-Idioms/Readme.md)
+    * [6.1 Object references, Mutability, and Recycling](/Chapters/Chapter6-Object-Oriented-Idioms/object-references-and-mutability-and-recycling.md)
+    * 
