@@ -8,3 +8,5 @@
 + [2. Iterables vs. Iterators vs. Generators](http://nvie.com/posts/iterators-vs-generators/)
 + [3. Argument Unpacking: *expression and **expression inside function calls](http://yyao.info/python/2016/09/25/python-starred-expression)
 + [4. Django girls](https://tutorial.djangogirls.org)
++ [5. Fluent Python](https://www.amazon.com/Fluent-Python-Luciano-Ramalho/dp/1491946008/ref=as_li_ss_tl?ie=UTF8&qid=1433621239&sr=8-1&keywords=fluent+python&linkCode=sl1&tag=parslyblog-20&linkId=UG7NDHNY4FVM6BSS)
++ [6. Effective Python](https://pdf.k0nsl.org/C/Computer%20and%20Internet%20Collection/2015%20Computer%20and%20Internet%20Collection%20part%206/Addison-Wesley%20Effective%20Python,%2059%20Specific%20Ways%20to%20Write%20Better%20Python%20(2015).pdf)
